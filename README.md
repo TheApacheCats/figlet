@@ -1,12 +1,13 @@
-About FIGlet (Frank, Ian & Glenn's Letters) release 2.2.5, 31 May 2012
---------------------------------------------------------------------------
+# About FIGlet (Frank, Ian & Glenn's Letters) release 2.2.5, 31 May 2012
 FIGlet is a program that creates large characters out of ordinary
 screen characters
+```
  _ _ _          _   _     _       
 | (_) | _____  | |_| |__ (_)___   
 | | | |/ / _ \ | __| '_ \| / __|  
 | | |   <  __/ | |_| | | | \__ \_ 
 |_|_|_|\_\___|  \__|_| |_|_|___(_)
+```
                                   
 (This is meant to be viewed in a monospaced font.)  FIGlet can create
 characters in many different styles and can kern and "smush" these
@@ -19,8 +20,7 @@ e-mail message to <info@figlet.org>
 
 The official FIGlet web page: http://www.figlet.org/
 
-Files -- Unix version
----------------------
+## Files -- Unix version
 
 README       -- This file.
 figlet.c     -- The FIGlet source code.
@@ -46,8 +46,7 @@ fonts        -- Directory containing fonts and control files.
 <xxx>.flf    -- All files ending in ".flf" are FIGlet font files.
 <xxx>.flc    -- All files ending in ".flc" are FIGlet control files.
 
-Files -- DOS version
---------------------
+## Files -- DOS version
 
 README       -- This file
 figlet.exe   -- The FIGlet program.
@@ -64,8 +63,7 @@ fonts        -- Directory containing fonts and control files.
 <xxx>.flc    -- All files ending in ".flc" are FIGlet control files.
 
 
-Installing FIGlet --- Unix version
-----------------------------------
+## Installing FIGlet --- Unix version
 
 First decide in which directories FIGlet and the FIGlet font files
 (the ".flf" files) will be stored (we recommend "/usr/games" and
@@ -104,8 +102,7 @@ If space is a problem, the only files you absolutely must have to run
 figlet are "figlet" (the executable) and at least one font (preferably
 the one you chose to be the default font).
 
-Installing FIGlet -- DOS version
---------------------------------
+## Installing FIGlet -- DOS version
 
 Unpack the ZIPfile using PKUNZIP, Info-Zip UNZIP, WinUnzip, or any other
 ZIP-compatible program.  Be sure to use the -d option with PKUNZIP
@@ -118,8 +115,7 @@ release is named FIGLET.EXE.  You can keep your old fonts by putting
 them in a FONTS subdirectory before unpacking.  (There are upgraded
 versions of the standard fonts in the archive.)
 
-Using FIGlet
-------------
+## Using FIGlet
 
 (Note: FIGlet needs a good thorough tutorial.  Currently I don't have
 the time to write one, but if anyone wants to do so, go right ahead.
@@ -130,12 +126,14 @@ At the shell prompt, type "figlet".  Then type, say, "Hello, world!"
 and press return.  "Hello, world!" in nice, big, designer characters
 should appear on your screen.  If you chose standard.flf to be the
 default font, you should see
+```
  _   _      _ _                             _     _ _ 
 | | | | ___| | | ___    __      _____  _ __| | __| | |
 | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| '__| |/ _` | |
 |  _  |  __/ | | (_) |   \ V  V / (_) | |  | | (_| |_|
 |_| |_|\___|_|_|\___( )   \_/\_/ \___/|_|  |_|\__,_(_)
                     |/                                
+```
 Then type something else, or type an EOF (typically control-D) to quit
 FIGlet.
 
@@ -145,11 +143,14 @@ have taken you hours to put that together!")
 
 To use other fonts, use the "-f" command line option.  For example, if
 you had said "figlet -f smslant" above, you would have seen
+
+```
    __ __    ____                         __   ____
   / // /__ / / /__      _    _____  ____/ /__/ / /
  / _  / -_) / / _ \_   | |/|/ / _ \/ __/ / _  /_/ 
 /_//_/\__/_/_/\___( )  |__,__/\___/_/ /_/\_,_(_)  
                   |/                              
+```
 
 Here are some other useful command line options:
 
@@ -167,8 +168,7 @@ For in-depth explanations of these and other options, see the man page.
 DOS users, see figlet.man.
 
 
-Other Fonts & Mailing List
---------------------------
+## Other Fonts & Mailing List
 
 A good number of FIGlet fonts have been developed, most of which are
 not included in the standard FIGlet package.  Many of these can be
@@ -176,17 +176,6 @@ obtained from http://www.figlet.org/   Some non-Roman fonts are
 available at this site.  As of this writing, we have Hebrew, Cyrillic
 (Russian) and Greek.
 
-There are 3 mailing lists available for FIGlet:
-	 figlet@figlet.org           General discussion of FIGlet
-	 figletfonts@figlet.org      Announcements about fonts 
-	 figletsoftware@figlet.org   Announcements about software 
-	 (The last two lists are moderated)
-
-To subscribe or unsubscribe from the FIGlet mailing lists, please visit 
-the corresponding URL:
-	 http://www.figlet.org/mailman/listinfo/figlet 
-	 http://www.figlet.org/mailman/listinfo/figletfonts 
-	 http://www.figlet.org/mailman/listinfo/figletsoftware 
 
 Also, for those who maintain archives of figlet fonts, please note that
 all of the standard fonts have been changed, as of release 2.1, to
@@ -214,8 +203,7 @@ The new versions of these fonts can be identified by the words "figlet
 release 2.1" somewhere in the first few lines.  
 
 
-Other Stuff
------------
+## Other Stuff
 
 FIGlet is available for operating systems other than Unix.  
 Please see ftp://ftp.figlet.org/program/
@@ -230,8 +218,7 @@ See "Other Things to Try" in the EXAMPLES section of the man page
 for... well... other things to try.
 
 
-Authors
--------
+## Authors
 
 FIGlet was written mostly by Glenn Chappell <c486scm@semovm.semo.edu>.  The
 author not being an e-mail fanatic, most correspondence (bug reports, rave
